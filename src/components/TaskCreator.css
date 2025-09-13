@@ -1,0 +1,148 @@
+.task-creator-container {
+  background-color: #FFFFFF;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+.text-input {
+  width: 100%;
+  border: 2px solid #F0F0F0;
+  border-radius: 12px;
+  padding: 16px;
+  font-size: 16px;
+  color: #333;
+  background-color: #FAFAFA;
+  min-height: 20px;
+  box-sizing: border-box;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.text-input:focus {
+  border-color: #FF8C00;
+}
+
+.text-input::placeholder {
+  color: #999;
+}
+
+.category-section {
+  margin-bottom: 20px;
+}
+
+.section-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.category-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.category-button {
+  flex: 1;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: 2px solid;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: transparent;
+}
+
+.category-button.primary {
+  border-color: #FF8C00;
+  color: #FF8C00;
+  background-color: #FFF5E6;
+}
+
+.category-button.secondary {
+  border-color: #FFB84D;
+  color: #FFB84D;
+  background-color: #FFFAF0;
+}
+
+.category-button.active {
+  background-color: #FF8C00 !important;
+  color: #FFFFFF !important;
+  border-color: #FF8C00 !important;
+}
+
+.due-date-section {
+  margin-bottom: 20px;
+}
+
+.due-date-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.toggle-button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  background-color: #F0F0F0;
+  border: none;
+  font-size: 12px;
+  color: #666;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.toggle-button.active {
+  color: #FF8C00;
+  background-color: #FFF5E6;
+}
+
+.date-input {
+  width: 100%;
+  border: 1px solid #E0E0E0;
+  border-radius: 10px;
+  padding: 16px;
+  background-color: #FAFAFA;
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+  font-family: inherit;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.date-input:focus {
+  border-color: #FF8C00;
+}
+
+.add-button {
+  width: 100%;
+  background-color: #FF8C00;
+  color: #FFFFFF;
+  padding: 16px;
+  border-radius: 12px;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(255, 140, 0, 0.3);
+}
+
+.add-button:hover {
+  background-color: #FF7A00;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(255, 140, 0, 0.4);
+}
